@@ -1,0 +1,24 @@
+*{
+    margin-top: 0%;
+}
+.first{
+    height: 60px;
+    
+
+}
+.first ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+.second{
+    border:  2px solid #f7f8f8;
+    margin-bottom: 10px;
+}
+.second ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
