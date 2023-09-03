@@ -3,6 +3,8 @@ import Header from './Component/Header'
 import Banner from "./Component/Banner"
 import Categories from "./Component/Categories"
 import Products from "./Component/Products"
+import Footer from './Component/Footer'
+import End from './Component/End'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Banner />
       <Categories />
       <Products />
+      <Footer />
+      <End />
     </>
   )
 }
