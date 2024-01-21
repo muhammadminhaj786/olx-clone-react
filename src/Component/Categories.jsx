@@ -19,12 +19,12 @@ import books from '../assets/books.png'
 
 const Categories = () => {
   return (
-    <div style={{marginTop:'40px' ,width:'98%'}}>
+    <div className='mt-10 w-[80%] mx-auto'>
         <h2>
             All Categories
         </h2>
         
-        <Container fluid>
+        <Container >
             <Row>
                 <Col>
                     <Imgcomponent imgSrc={mobile} content={'Mobile'}/>
@@ -43,6 +43,12 @@ const Categories = () => {
                 </Col>
                 <Col>
                     <Imgcomponent imgSrc={animals} content={'Animals'}/>
+                </Col>
+                <Col>
+                    <Imgcomponent imgSrc={books} content={'Books'}/>
+                </Col>
+                <Col>
+                    <Imgcomponent imgSrc={books} content={'Books'}/>
                 </Col>
                 <Col>
                     <Imgcomponent imgSrc={books} content={'Books'}/>
