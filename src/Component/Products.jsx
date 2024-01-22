@@ -16,39 +16,10 @@ import Box from '@mui/material/Box';
 const Products = () => {
   return (
     <div className="ml-4 mt-7">
-      <h2>Cars</h2>
-      {/* <Container fluid>
-        <Row>
-          <Col>
-            <MyCard
-              CardSrc={pro1}
-              price="Rs 1,95,000"
-              disc="Toyata belta from 2019"
-            />
-          </Col>
-          <Col>
-            <MyCard
-              CardSrc={pro2}
-              price="Rs 2,95,000"
-              disc="Toyata belta from 2019"
-            />
-          </Col>
-          <Col>
-            <MyCard
-              CardSrc={pro3}
-              price="Rs 1,15,000"
-              disc="Toyata belta from 2019"
-            />
-          </Col>
-          <Col>
-            <MyCard
-              CardSrc={pro4}
-              price="Rs 2,15,000"
-              disc="Honda CIvic belta from 2019"
-            />
-          </Col>
-        </Row>
-      </Container> */}
+      <div className="flex justify-between  h-[80px] border">
+        <div className="py-2"><p className="text-[28px] font-bold">Cars</p></div>
+        <div className="py-4"><p className="text-[#3A77FF] font-bold text-[15px]">View more &gt; </p></div>
+      </div>
 
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12} sm={6} md={4} lg={3} >
