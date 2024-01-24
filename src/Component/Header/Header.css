@@ -1,0 +1,7 @@
+@media screen and (max-width: 480px) {
+    .ctn {
+      font-size: 1.5vw;
+      width: 100%;
+      font-weight: bold;
+    }
+  }

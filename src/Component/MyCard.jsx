@@ -7,7 +7,7 @@ import { UilHeart } from "@iconscout/react-unicons";
 const MyCard = (props) => {
   let { CardSrc, price, disc } = props;
   return (
-    <div className="w-[290px] h-[330px] border">
+    <div className="w-[290px] h-[330px] border mt-2">
       <div className=" h-[47%] ">
         <img className="w-[100%] h-[100%]" src={CardSrc} alt="" />
       </div>

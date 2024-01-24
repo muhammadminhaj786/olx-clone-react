@@ -1,13 +1,14 @@
 
-import Header from './Component/Header'
 import Banner from "./Component/Banner"
 import Categories from "./Component/Categories"
-import Products from "./Component/Products"
-import Footer from './Component/Footer'
+
 import End from './Component/End'
 
 import './App.css'
 import Navbar from "./Component/Navbar/Navbar"
+import Header from "./Component/Header/Header"
+import Footer from "./Component/footer/Footer"
+import Products from "./Component/product/Products"
 
 
 function App() {

@@ -8,6 +8,7 @@ import serachIcn from '../../assets/search icon.png'
 import * as Unicons from "@iconscout/react-unicons";
 import { UilHeart } from "@iconscout/react-unicons";
 import bgii from '../../assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg'
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='bg-[#f7f8f8] h-[135px] fixed w-full top-0 z-10 '>
