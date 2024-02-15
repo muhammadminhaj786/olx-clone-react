@@ -20,6 +20,11 @@ const SignUp = () => {
           label="address"
           type="address"
         /> 
+         <TextField sx={{width:"100%" ,marginTop:"10px"}}
+          name='password'
+          label="Password"
+          type="password"
+        /> 
     </div></>
   )
 }
