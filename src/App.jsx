@@ -10,6 +10,7 @@ import Header from "./Component/Header/Header"
 import Footer from "./Component/footer/Footer"
 import Products from "./Component/product/Products"
 import SignUp from "./pages/signup/SignUp"
+import PrePost from "./pages/prepost/PrePost"
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       <Products />
       <Footer />
       <End /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      <PrePost />
     </>
   )
 }
